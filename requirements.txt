@@ -1,0 +1,17 @@
+# Core (required)
+pydantic>=2.9.0
+fastapi>=0.115.0
+uvicorn[standard]>=0.31.0
+gradio>=5.0.0
+pillow>=10.0.0
+python-dotenv>=1.0.0
+
+# OCR (recommended — fast fallback, no GPU needed)
+easyocr>=1.7.0
+
+# VLM (optional — best quality, needs GPU)
+# transformers>=4.46.0
+# torch>=2.4.0
+# accelerate>=1.0.0
+# bitsandbytes>=0.44.0        # For 4-bit quantisation
+# qwen-vl-utils>=0.0.8        # Qwen2.5-VL utilities
